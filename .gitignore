@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor / harness
+.claude/
+.DS_Store
+
+# Foundry build artifacts
+cache/
+out/

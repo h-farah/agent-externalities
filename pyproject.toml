@@ -1,0 +1,14 @@
+[project]
+name = "verified-action-certificates-demo"
+version = "0.1.0"
+description = "Tiny proof-of-concept for certificate-gated agent actions in a stylized lending protocol."
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.96.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.setuptools.packages.find]
+include = ["vac_demo*"]
